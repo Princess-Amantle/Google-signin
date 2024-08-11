@@ -4,12 +4,12 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+    apiKey: "AIzaSyDO7DI9ZaZw2ixAa2ZzuLMzUeI6jiEvJl0",
+    authDomain: "onboarding-7181e.firebaseapp.com",
+    projectId: "onboarding-7181e",
+    storageBucket: "onboarding-7181e.appspot.com",
+    messagingSenderId: "1098259486356",
+    appId: "1:1098259486356:web:56d07afbd3800063b38681"
 };
 
 const app = initializeApp(firebaseConfig);
